@@ -1,0 +1,23 @@
+{
+  "name": "classsync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ClassSync - transparent, student-empowered focus platform for K-12 classrooms",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace @classsync/server",
+    "dev:web": "npm run dev --workspace @classsync/web",
+    "dev:mobile": "npm run start --workspace @classsync/mobile",
+    "build:common": "npm run build --workspace @classsync/common",
+    "simulate": "node scripts/simulate-students.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

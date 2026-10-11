@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "ClassSync Student",
+    "slug": "classsync-student",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.classsync.student",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.classsync.student"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d108ad8-962c-4eab-921c-d3c0b195d6c7"
+      }
+    }
+  }
+}

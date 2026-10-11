@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.next/
+build/
+*.tsbuildinfo
+
+# Expo
+.expo/
+apps/mobile/.expo/
+apps/mobile/web-build/
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Persisted user accounts (contains password hashes)
+apps/server/data/
+
+# OS
+.DS_Store

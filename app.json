@@ -1,0 +1,8 @@
+{
+  "android": {
+    "package": "com.xf10.classsync"
+  },
+  "ios": {
+    "bundleIdentifier": "com.xf10.classsync"
+  }
+}
