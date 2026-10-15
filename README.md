@@ -1,4 +1,4 @@
-# ClassSync (FocusBridge)
+# ClassSync
 
 A transparent, **student-empowered** focus and digital-responsibility platform for
 K-12 classrooms — the antithesis of surveillance-first MDMs like GoGuardian.
@@ -84,7 +84,7 @@ npm run dev:mobile
 auto-detection picks the wrong interface, override it:
 
 ```bash
-EXPO_HOST_IP=192.168.1.10 npm run dev:mobile
+EXPO_HOST_IP=<your ip address> npm run dev:mobile
 ```
 
 Then either press `w` in the Expo terminal to run the student app in a browser,
