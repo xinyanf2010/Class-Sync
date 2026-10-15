@@ -53,8 +53,8 @@ scripts/
 
 ```bash
 # 1. clone the repo
-git clone <repo-url>
-cd CAC
+git clone https://github.com/xinyanf2010/Class-Sync.git
+cd Class-Sync
 
 # 2. install all dependencies (npm workspaces — one install covers every app)
 npm install
