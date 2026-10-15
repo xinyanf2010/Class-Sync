@@ -5,10 +5,6 @@ K-12 classrooms — the antithesis of surveillance-first MDMs like GoGuardian.
 Students keep device agency within agreed boundaries; teachers get high-level
 visibility, mode-based focus controls, and assessment lock-down.
 
-This repo is a **functional first draft**: every core mechanism works end-to-end
-(join → live telemetry → teacher grid → mode/assessment controls), with UI kept
-minimal on purpose.
-
 ---
 
 ## What's implemented
